@@ -19,3 +19,9 @@ Write a loop that makes seven calls to console.log to output the following trian
 ######
 #######
 */
+
+var star = "#";
+for(i=0;i<7;i++){
+    console.log(star);
+    star.concat("#");
+}
