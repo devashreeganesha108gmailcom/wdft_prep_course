@@ -21,7 +21,7 @@ Test that you used the array push method correctly by printing the sum of the va
 The outputted value should be 9.
 */
 
-
+console.log(numbers[3]+numbers[6]);
 
 
 /*
@@ -30,11 +30,14 @@ Use the console.log() function and the array .pop() to add all the values in the
 */
 
 var sum = 0;
-/* remove this line to uncomment the code block
+var index = numbers.length-1;
+
 while(numbers.length != 0){
-    //write pop function here
+    sum += numbers[index];
+    index--;
+    numbers.pop();
 }
-remove this line to uncomment the code block */
+
 console.log(sum);
 
 
